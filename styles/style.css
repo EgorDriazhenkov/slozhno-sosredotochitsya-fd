@@ -262,7 +262,7 @@
     grid-column: 1 / 2;
   }
 
-  .hard-concentrate__card-list{
+  .hard-concentrate__card-list {
      grid-column: 2 / 3;
   }
 
@@ -359,7 +359,7 @@
   align-self: start;
   }
 
-  .header__theme-menu-list{
+  .header__theme-menu-list {
     flex-direction: row;
   }
 }
