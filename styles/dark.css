@@ -8,3 +8,7 @@
   --text-color: #f1b2ce;
   --button-color-hover: #FF007066;
 }
+
+.theme-dark .decoration-item {
+  display: block;
+}
