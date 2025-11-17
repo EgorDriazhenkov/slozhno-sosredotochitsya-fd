@@ -62,11 +62,11 @@
 
 .header {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   min-block-size: 668px;
   position: relative;
-  padding: 18px 10px;
+  padding: 10px 10px;
   align-items: center;
 
 }
@@ -212,7 +212,7 @@
 @media (width >= 768px) {
 
   .header {
-    padding: 105px 20px 105px 0;
+   padding: 20px 20px 20px 0;
   }
 
   .section {
@@ -332,11 +332,7 @@
 @media (width >= 1024px) {
 
   .header {
-    padding: 19px 0 53px 0;
-  }
-
-  .header__title {
-    padding-block-start: 32px;
+    padding: 20px 0;
   }
 
   .header__text {
